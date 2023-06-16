@@ -13,10 +13,10 @@
         <h1 class="col-sm-6"></h1>
            <!-- Navigation -->
       <nav class="col-sm-12 text-right">
-        <?php
-          foreach($menus as $menu){
-           echo '<a class="nav-link" href="'.$menu['url'].'">'.$menu['title'].'</a>';
-          }
+        
+         <?php
+          include("./includes/navbar.php");
+       
         ?>  
               
           </nav>

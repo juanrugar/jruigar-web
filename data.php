@@ -4,11 +4,11 @@
 
 // We're using PHP arrays for almost all info about our blog, posts, etc.
 $menus = [
-    ["title" => "Home", "url" => "#home"],
-    ["title" => "About", "url" => "#about"],
-    ["title" => "Spatial Data Analysis", "url" => "#spatialdata"],
-    ["title" => "GIS", "url" => "#gis"],
-    ["title" => "Landscape Archaeology", "url" => "#landsarch"]
+    ["title" => "Home", "url" => "#"],
+    ["title" => "About", "url" => "#"],
+    ["title" => "Spatial Data Analysis", "url" => "#"],
+    ["title" => "GIS", "url" => "#"],
+    ["title" => "Landscape Archaeology", "url" => "#"]
 ];
 
 $posts = [

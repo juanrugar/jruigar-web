@@ -14,5 +14,6 @@
    crossorigin="anonymous">
 
   <link href="https://releases.jquery.com/git/jquery-git.min.js">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
   <link href="css/style.css" type="text/css" rel="stylesheet">

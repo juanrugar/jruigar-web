@@ -15,10 +15,8 @@
           <!-- Navigation -->
           <nav class="col-sm-12 text-right">
             <?php
-              foreach($menus as $menu){
-               echo '<a class="nav-link" href="'.$menu['url'].'">'.$menu['title'].'</a>';
-              }
-            ?>  
+          include("./includes/navbar.php");
+        ?>  
           </nav>
        </div>
     </header>
@@ -42,7 +40,7 @@
         </div>
         <div class="col-sm-9">
           <h4>Greetings!</h4><br>
-          <p>Well, this is me: A GIS Analyst, ex-archaeologist, and IT developer.<br>
+          <p>A GIS Analyst, an Archaeologist, and, lately, a part-time coder.<br>
             From two years on, I devoted myself to web development projects, getting acquainted with front-end (HTML, CSS, JS, Bootstrap, Handlebars) and some back-end (Maven, Node.js, PHP, SQL) technologies, which provided me with a general view of the field and a "junior" working capacity. However, no proper job position achieved so far.
             Nevertheless, this last year I have expanded my IT skills to the GeoWeb ecosystem by enroling on a MSc in GIS Technologies. This provided me with an excellent update on my traditional GIS skills, and, more importantly, on a new array of tech and skills directly connected to web development and data analysis. 
             Thus, I am competent in using open data (geospatial data, actually), APIs (Google Maps, MapboxGL), and web mapping libraries (leaflet.js) to provide geospatial capabilities and data to web and mobile apps. 
