@@ -1,24 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+ include("helper.php");
+ include("./includes/header.php");
 
-<head>
-  <title>JuanRG - Education</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="https://releases.jquery.com/git/jquery-git.min.js">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-  <link href="css/style.css" type="text/css" rel="stylesheet">
+?>
+
+   <title>giftOfGab</title>
 </head>
+
   <body>
     <header class="container">
        <div class="row">
         <h1 class="col-sm-6"></h1>
-          <nav class="col-sm-6 text-right" >
-              <a href="index.html">Home</a>
-              <a href="about.html">About</a>
-              <a href="education.html">Education</a>
+           <!-- Navigation -->
+      <nav class="col-sm-12 text-right">
+        <?php
+          foreach($menus as $menu){
+           echo '<a class="nav-link" href="'.$menu['url'].'">'.$menu['title'].'</a>';
+          }
+        ?>  
               
           </nav>
        </div>
@@ -89,7 +88,7 @@
           <h3><em>Data Analysis</em></h3>
           <p>In addition to the data analysis tools embedded into GIS packages, the use of R language libraries provides an extra array of useful resources for data 
             management and analysis, visualization, and cartographical production. This is specially true when handling a large amount of data, served in different formats, 
-            and stored in very heavy files, which, usually overwhelm GIS or other usual data info packages such as databases and datasheets and crash yoru computer. 
+            and stored in very heavy files, which, usually overwhelm GIS or other usual data info packages such as databases and datasheets and crash your computer. 
             R and Python are a potent solution to tackle those technicalities and provide excellent results.</p>
         </div>
       </div>
@@ -102,13 +101,10 @@
     <br><br>
          
     <!-- END of DATA ANALYSIS section -->
-    
-    
-    <footer class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 text-right"><small>&copy; 2022 Juan Ruiz</small></div>
-      </div>
-    </footer>
+        
+    <!-- footer -->
+    <?php include('./includes/footer.php') ?>
+    <!-- // footer -->
 
    <!-- Jquery for Tooltips -->
   <script>
