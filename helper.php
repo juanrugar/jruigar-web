@@ -1,5 +1,5 @@
 <?php
-//helper is a set of funtions that index.html will use to work with the data kept in the data.php file.
+//helper is a set of functions that index.html will use to work with the data kept in the data.php file.
 
 include("data.php");
 

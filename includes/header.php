@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
- 
+    <title>JR - DerLandstreicher</title>
   <meta charset="utf-8" />
  
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,3 +17,6 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"
   <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
   <link href="css/style.css" type="text/css" rel="stylesheet">
+
+
+</head>

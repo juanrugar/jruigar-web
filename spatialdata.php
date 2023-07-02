@@ -37,35 +37,28 @@
     </section>
     
 <!-- SPATIAL DATA ANALYSIS SECTION-->
-    <section class="container webGIS">
+
+     <!-- FORMER DATA ANALYSIS SECTION-->
+    <section class="container datAnalysis"> 
       <div class="row">
         <div class="col-sm-12">
-          <h3><em>WebGIS and Web Mapping</em></h3>
-          <p>A rich acosystem of javascript libraries, APIs, and other solutions to display information geospatially, and to feed apps with georeferenced data.
-            This web mapping tools array comprises mainly Leaflet.js and MapBoxGL, along with KeplerGL and Google Maps Platform. 
-            A comprehensive stack of projects developed with such tools is avalable <a href="https://juanrugar.github.io/webgis-portfolio/" target="_blank">here.</a></p>
-        </div>
-      </div>  
-      <div class="row">
-        <div class="col-sm-3">
-          <a href="https://juanrugar.github.io/webgis-portfolio/index.html#leaflet" target="_blank"><h5>Leaflet.js</h5></a> <!-- Bookmark to webgis-portfolio leaflet section -->
-        </div>
-        <div class="col-sm-3">
-          <a href="https://juanrugar.github.io/webgis-portfolio/index.html#mapbox" target="_blank"><h5>MapboxGL</h5></a>
-        </div>
-        <div class="col-sm-3">
-          <a href="https://juanrugar.github.io/webgis-portfolio/index.html#kepler" target="_blank"><h5>KeplerGL</h5></a>
-        </div>
-        <div class="col-sm-3">
-          <a href="https://juanrugar.github.io/webgis-portfolio/index.html#webapps" target="_blank"><h5>webGIS apps</h5></a>
+          <h3><em>Data Analysis</em></h3>
+          <p>In addition to the data analysis tools embedded into GIS packages, the use of R language libraries provides an extra array of useful resources for data 
+            management and analysis, visualization, and cartographical production. This is specially true when handling a large amount of data, served in different formats, 
+            and stored in very heavy files, which, usually overwhelm GIS or other usual data info packages such as databases and datasheets and crash your computer. 
+            R and Python are a potent solution to tackle those technicalities and provide excellent results.</p>
         </div>
       </div>
-
-    </section><br>
-       
-        
-    <!-- END of WEBGIS section-->
-  
+      <div c class="row">
+        <div class="col-sm-3">
+          <a href="https://github.com/juanrugar/UrbanAnalysis" target="_blank"><h5>Urban Analysis</h5></a>
+        </div>
+      </div>
+    </section>
+    <br><br>
+         
+    <!-- FORMER END of DATA ANALYSIS section -->
+  <!-- SPATIAL DATA ANALYSIS SECTION-->
    
     <!-- footer -->
     <?php include('./includes/footer.php') ?>

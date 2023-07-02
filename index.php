@@ -3,8 +3,7 @@
  include("./includes/header.php");
 
 ?>
-   <title>giftOfGab</title>
-</head>
+  
 
 <body>
 
