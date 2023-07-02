@@ -6,8 +6,8 @@
 $menus = [
     ["title" => "Home", "url" => "#"],
     ["title" => "About", "url" => "#"],
-    ["title" => "Spatial Data Analysis", "url" => "#"],
     ["title" => "GIS", "url" => "#"],
+    ["title" => "Spatial Data Analysis", "url" => "#"],
     ["title" => "Landscape Archaeology", "url" => "#"]
 ];
 

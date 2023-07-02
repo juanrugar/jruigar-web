@@ -3,23 +3,19 @@
  include("./includes/header.php");
 
 ?>
-
-   <title>giftOfGab</title>
-</head>
-
+  
   <body>
     <header class="container">
        <div class="row">
         <h1 class="col-sm-6"></h1>
            <!-- Navigation -->
-      <nav class="col-sm-12 text-right">
-        
-         <?php
-          include("./includes/navbar.php");
-       
-        ?>  
-              
-          </nav>
+        <nav class="col-sm-12 text-right">
+          
+           <?php
+            include("./includes/navbar.php");
+          ?>  
+                
+        </nav>
        </div>
     </header>
 
@@ -27,11 +23,11 @@
     <section class="jumbotron">
           <div class="container">
             <div class="row">
-              <h2>Juan Ruiz García</h2>
+              <h2>Spatial Data Analysis</h2>
             </div>
             <br>
             <div class="row justify-content-center">
-              <h3><em>"Experience is the Teacher of All Things"</em> - Julius Caesar</h3>
+              <h3><em>All data managment tools provide an insight: Excel, R libraries, or SQL.</em></h3>
             </div>
           </div>
     </section>
